@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Website</title>
+    <style>
+        
+
+       
+        body {
+            background-color: rgb(166, 242, 192);
+        }
+
+        .greenbox {
+            border-left: 10px solid rgb(19, 136, 44);
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 30px;
+            }
+        .yellowbox {
+            border-left: 10px solid rgb(226, 224, 102);;
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 30px;
+        }
+
+        .containercontent {
+            max-width: 1250px;
+            margin: 0 auto;
+        }
+
+        ul {
+            overflow: hidden;
+            background-color: rgb(8, 108, 11);
+        }
+
+        li {
+            float: left;
+        }
+
+        
+        li a, .dropbtn {
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 15px 15px;
+        }
+
+        li a:hover, .dropdown:hover .dropbtn {
+        background-color: rgb(8, 150, 11);
+        }
+
+        li.dropdown {
+        display: inline-block;
+        }
+
+       
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(8, 150, 11);
+            min-width: 100x;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+        
+    </style>
+    
+    
+</head>
+<body>
+    <ul>
+            <li class = dropdown><a><b>File</b></a>
+            <div class="dropdown-content">
+                <a href="">New</a>
+                <a href="">Open</a>
+                <a href="">Save</a>
+                <a href="">Print</a>
+                <a href="">Close</a>
+            </div>
+        </li>
+
+        
+        <li class = dropdown><a>Edit</a>
+            <div class="dropdown-content">
+                <a href="">Undo</a>
+                <a href="">Redo</a>
+                <a href="">Cut</a>
+                <a href="">Copy</a>
+                <a href="">Paste</a>
+                <a href="">Delete</a>
+                <a href="">Select All</a>
+            </div>
+        </div>
+
+        <li class = dropdown><a><b>View</b></a>
+            <div class="dropdown-content">
+                <a href="">New</a>
+                <a href="">Open</a>
+                <a href="">Save</a>
+                <a href="">Print</a>
+                <a href="">Close</a>
+            </div>
+        </div>
+      </ul>
+
+    <div class = "containercontent">
+        <div class = "greenbox">
+            <h2>Instructions</h2>
+            <p>Recreate this page using <b><i>only CSS.</i></b> Do yourself a favor and 1) Do not view the source. Figure it out yourself. 2) Do not search for the solution. Learn CSS until you know enough to do this.</p>
+          </div> 
+        <div class = "yellowbox">
+            <h2>Extra Credit</h2>
+            <p>Notice how the Edit menu (besides for not being bold) reacts to clicks. If you click the edit menu, it remains open until you click somewhere else. (This you might need to search for)</p>
+        </div>
+    </div>
+</body>
+</html>
