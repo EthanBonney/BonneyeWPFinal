@@ -1,0 +1,26 @@
+{
+  "name": "bonneyewp",
+  "version": "1.0.0",
+  "description": "My name is Ethan Bonney and I am a Computer Engineering student here at Suny New Paltz.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -- watch server server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanBonney/BonneyeWP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanBonney/BonneyeWP/issues"
+  },
+  "homepage": "https://github.com/EthanBonney/BonneyeWP#readme"
+}
